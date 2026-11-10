@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "provider": "USDA FoodData Central",
+  "retrieved_date": "2026-11-10",
+  "api_endpoint": "https://api.nal.usda.gov/fdc/v1/foods/search",
+  "evidence_kind": "selected_record_field_excerpts",
+  "extraction_note": "Only selected food records are included. Kept source fields are unchanged; foodNutrients retains Energy (nutrientId=1008) only. These are excerpts, not complete HTTP responses. original_response_sha256 identifies the complete response retained locally during acquisition.",
+  "basis": "Energy nutrient 1008 in KCAL per 100 g edible food, as provided by USDA FoodData Central.",
+  "records": [
+    {
+      "original_response_sha256": "0d4918ee529a3ae0e5057c1aebb07884ed72a93dd81084e802cc429e43a449cf",
+      "food": {
+        "fdcId": 2708615,
+        "description": "Pizza, cheese, from restaurant or fast food, thin crust",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 266,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34346177
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "0d4918ee529a3ae0e5057c1aebb07884ed72a93dd81084e802cc429e43a449cf",
+      "food": {
+        "fdcId": 2708617,
+        "description": "Pizza, cheese, from restaurant or fast food, thick crust",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 271,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34346307
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "0d4918ee529a3ae0e5057c1aebb07884ed72a93dd81084e802cc429e43a449cf",
+      "food": {
+        "fdcId": 2708626,
+        "description": "Pizza, cheese, with vegetables, from restaurant or fast food, thin crust",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 234,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34346892
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "0d4918ee529a3ae0e5057c1aebb07884ed72a93dd81084e802cc429e43a449cf",
+      "food": {
+        "fdcId": 2708641,
+        "description": "Pizza with pepperoni, from restaurant or fast food, thick crust",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 287,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34347867
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "b20e3b80230e8e83e31c8c0ce0018832c567e7999681746c035f10586b2a9d96",
+      "food": {
+        "fdcId": 2706920,
+        "description": "Hamburger, NFS",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 288,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34236002
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "b20e3b80230e8e83e31c8c0ce0018832c567e7999681746c035f10586b2a9d96",
+      "food": {
+        "fdcId": 2706924,
+        "description": "Hamburger (McDonalds)",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 263,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34236262
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "b20e3b80230e8e83e31c8c0ce0018832c567e7999681746c035f10586b2a9d96",
+      "food": {
+        "fdcId": 2706922,
+        "description": "Hamburger (Burger King)",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 254,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34236132
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "b20e3b80230e8e83e31c8c0ce0018832c567e7999681746c035f10586b2a9d96",
+      "food": {
+        "fdcId": 2706925,
+        "description": "Hamburger, from school cafeteria",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 243,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34236327
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "35242eb42a8b3515ae9aec6a199c44bbd731e27d5f80612f2089bd2d0b3674f6",
+      "food": {
+        "fdcId": 170698,
+        "description": "Fast foods, potato, french fried in vegetable oil",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 312,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1544598,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "35242eb42a8b3515ae9aec6a199c44bbd731e27d5f80612f2089bd2d0b3674f6",
+      "food": {
+        "fdcId": 168445,
+        "description": "Potatoes, french fried, steak fries, salt added in processing, frozen, oven-heated",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 148,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1361047,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "c7ed9398616266924388f9f03b6588927c126bf06922cd73e51f0d9ae0040f3b",
+      "food": {
+        "fdcId": 2707060,
+        "description": "Hot dog sandwich, beef, on white bun",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 296,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34245102
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "c7ed9398616266924388f9f03b6588927c126bf06922cd73e51f0d9ae0040f3b",
+      "food": {
+        "fdcId": 2707061,
+        "description": "Hot dog sandwich, beef, on wheat bun",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 290,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34245167
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "c7ed9398616266924388f9f03b6588927c126bf06922cd73e51f0d9ae0040f3b",
+      "food": {
+        "fdcId": 2707064,
+        "description": "Hot dog sandwich, meat and poultry, on white bun",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 278,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34245362
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "c7ed9398616266924388f9f03b6588927c126bf06922cd73e51f0d9ae0040f3b",
+      "food": {
+        "fdcId": 2707065,
+        "description": "Hot dog sandwich, meat and poultry, on wheat bun",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 271,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34245427
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "54af809d03fa5053fbd1569b73d6b0caab68963f63de64cb63cdccf7399b782e",
+      "food": {
+        "fdcId": 2708951,
+        "description": "Rice, fried, meatless",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 174,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34368017
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "54af809d03fa5053fbd1569b73d6b0caab68963f63de64cb63cdccf7399b782e",
+      "food": {
+        "fdcId": 2708953,
+        "description": "Rice, fried, with chicken",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 173,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34368147
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "54af809d03fa5053fbd1569b73d6b0caab68963f63de64cb63cdccf7399b782e",
+      "food": {
+        "fdcId": 2708954,
+        "description": "Rice, fried, with pork",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 179,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34368212
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "54af809d03fa5053fbd1569b73d6b0caab68963f63de64cb63cdccf7399b782e",
+      "food": {
+        "fdcId": 2708955,
+        "description": "Rice, fried, with beef",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 178,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34368277
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "54af809d03fa5053fbd1569b73d6b0caab68963f63de64cb63cdccf7399b782e",
+      "food": {
+        "fdcId": 2708956,
+        "description": "Rice, fried, with shrimp",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 166,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34368342
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "a50333b4a093e1b57c101830c000052e5087499e30f91ac2714eca72732f4b28",
+      "food": {
+        "fdcId": 2708705,
+        "description": "Wonton, dumpling or pot sticker, fried",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 192,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34352027
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "0b6b25d5a31e08e3ae3dd6fdd7e018669fe3853dfcb8c2ea043442bdeea6d8ca",
+      "food": {
+        "fdcId": 2708972,
+        "description": "Sushi, topped with egg",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 119,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34369382
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "0b6b25d5a31e08e3ae3dd6fdd7e018669fe3853dfcb8c2ea043442bdeea6d8ca",
+      "food": {
+        "fdcId": 2708961,
+        "description": "Sushi roll, California",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 94,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34368667
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "0b6b25d5a31e08e3ae3dd6fdd7e018669fe3853dfcb8c2ea043442bdeea6d8ca",
+      "food": {
+        "fdcId": 2708971,
+        "description": "Sushi, topped with tuna",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 100,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34369317
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "0b6b25d5a31e08e3ae3dd6fdd7e018669fe3853dfcb8c2ea043442bdeea6d8ca",
+      "food": {
+        "fdcId": 2708960,
+        "description": "Sushi roll, avocado",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 93,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34368602
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "0b6b25d5a31e08e3ae3dd6fdd7e018669fe3853dfcb8c2ea043442bdeea6d8ca",
+      "food": {
+        "fdcId": 2708963,
+        "description": "Sushi roll, salmon",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 103,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34368797
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "3e058e2c941ea09b5cb9df10cee824ec33f0c27d3d4b94565ab391cf9e55a2d0",
+      "food": {
+        "fdcId": 167575,
+        "description": "Ice creams, vanilla",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 207,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1288939,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "3e058e2c941ea09b5cb9df10cee824ec33f0c27d3d4b94565ab391cf9e55a2d0",
+      "food": {
+        "fdcId": 167572,
+        "description": "Ice creams, vanilla, light",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 180,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1288690,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "3e058e2c941ea09b5cb9df10cee824ec33f0c27d3d4b94565ab391cf9e55a2d0",
+      "food": {
+        "fdcId": 167573,
+        "description": "Ice creams, vanilla, rich",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 249,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1288777,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "3e058e2c941ea09b5cb9df10cee824ec33f0c27d3d4b94565ab391cf9e55a2d0",
+      "food": {
+        "fdcId": 167981,
+        "description": "Ice creams, french vanilla, soft-serve",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 222,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1321884,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "eab827e6298ff16b46a6d27ec3aa1b8731cfea02c5b8a08e954fdcdb2317a712",
+      "food": {
+        "fdcId": 175039,
+        "description": "Waffles, plain, prepared from recipe",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 291,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1909074,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "eab827e6298ff16b46a6d27ec3aa1b8731cfea02c5b8a08e954fdcdb2317a712",
+      "food": {
+        "fdcId": 167519,
+        "description": "Waffle, plain, frozen, ready-to-heat, microwave",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 298,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1284054,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "eab827e6298ff16b46a6d27ec3aa1b8731cfea02c5b8a08e954fdcdb2317a712",
+      "food": {
+        "fdcId": 175048,
+        "description": "Waffles, plain, frozen, ready -to-heat, toasted",
+        "dataType": "SR Legacy",
+        "publishedDate": "2019-04-01",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "NC",
+            "derivationDescription": "Calculated",
+            "derivationId": 49,
+            "value": 312,
+            "foodNutrientSourceId": 2,
+            "foodNutrientSourceCode": "4",
+            "foodNutrientSourceDescription": "Calculated or imputed",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 1909814,
+            "dataPoints": 0
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "ff411e933a5a69771e3f706e2668ff7e54e37fb96514dc0092be70535adfeff0",
+      "food": {
+        "fdcId": 2708825,
+        "description": "Pasta with tomato-based sauce, cheese and meat",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 147,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34359827
+          }
+        ]
+      }
+    },
+    {
+      "original_response_sha256": "ff411e933a5a69771e3f706e2668ff7e54e37fb96514dc0092be70535adfeff0",
+      "food": {
+        "fdcId": 2708839,
+        "description": "Pasta with tomato-based sauce and meat, ready-to-heat",
+        "dataType": "Survey (FNDDS)",
+        "publishedDate": "2024-10-31",
+        "foodNutrients": [
+          {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "value": 139,
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 34360737
+          }
+        ]
+      }
+    }
+  ]
+}

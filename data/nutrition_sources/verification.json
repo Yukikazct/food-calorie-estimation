@@ -1,0 +1,225 @@
+{
+  "verified_utc": "2026-11-10T04:25:29.372991+00:00",
+  "status": "passed",
+  "nutrition_sha256": "15c047b39c9a29e6d785d383e024431e7409518d4afac1b2443f8ca4df84f8d5",
+  "class_count": 10,
+  "search_reference_count": 34,
+  "checks": [
+    "excerpt_file_sha256",
+    "fdc_id",
+    "description",
+    "data_type",
+    "publication_date",
+    "energy_nutrient_1008",
+    "kcal_unit",
+    "per_100g_basis",
+    "official_source_url",
+    "bounds_equal_reference_min_max",
+    "no_unreferenced_source_records"
+  ],
+  "references": [
+    {
+      "class_name": "pizza",
+      "fdc_id": 2708615,
+      "kcal_per_100g": 266
+    },
+    {
+      "class_name": "pizza",
+      "fdc_id": 2708617,
+      "kcal_per_100g": 271
+    },
+    {
+      "class_name": "pizza",
+      "fdc_id": 2708626,
+      "kcal_per_100g": 234
+    },
+    {
+      "class_name": "pizza",
+      "fdc_id": 2708641,
+      "kcal_per_100g": 287
+    },
+    {
+      "class_name": "hamburger",
+      "fdc_id": 2706920,
+      "kcal_per_100g": 288
+    },
+    {
+      "class_name": "hamburger",
+      "fdc_id": 2706924,
+      "kcal_per_100g": 263
+    },
+    {
+      "class_name": "hamburger",
+      "fdc_id": 2706922,
+      "kcal_per_100g": 254
+    },
+    {
+      "class_name": "hamburger",
+      "fdc_id": 2706925,
+      "kcal_per_100g": 243
+    },
+    {
+      "class_name": "french_fries",
+      "fdc_id": 170698,
+      "kcal_per_100g": 312
+    },
+    {
+      "class_name": "french_fries",
+      "fdc_id": 168445,
+      "kcal_per_100g": 148
+    },
+    {
+      "class_name": "hot_dog",
+      "fdc_id": 2707060,
+      "kcal_per_100g": 296
+    },
+    {
+      "class_name": "hot_dog",
+      "fdc_id": 2707061,
+      "kcal_per_100g": 290
+    },
+    {
+      "class_name": "hot_dog",
+      "fdc_id": 2707064,
+      "kcal_per_100g": 278
+    },
+    {
+      "class_name": "hot_dog",
+      "fdc_id": 2707065,
+      "kcal_per_100g": 271
+    },
+    {
+      "class_name": "fried_rice",
+      "fdc_id": 2708951,
+      "kcal_per_100g": 174
+    },
+    {
+      "class_name": "fried_rice",
+      "fdc_id": 2708953,
+      "kcal_per_100g": 173
+    },
+    {
+      "class_name": "fried_rice",
+      "fdc_id": 2708954,
+      "kcal_per_100g": 179
+    },
+    {
+      "class_name": "fried_rice",
+      "fdc_id": 2708955,
+      "kcal_per_100g": 178
+    },
+    {
+      "class_name": "fried_rice",
+      "fdc_id": 2708956,
+      "kcal_per_100g": 166
+    },
+    {
+      "class_name": "gyoza",
+      "fdc_id": 2708705,
+      "kcal_per_100g": 192
+    },
+    {
+      "class_name": "sushi",
+      "fdc_id": 2708972,
+      "kcal_per_100g": 119
+    },
+    {
+      "class_name": "sushi",
+      "fdc_id": 2708961,
+      "kcal_per_100g": 94
+    },
+    {
+      "class_name": "sushi",
+      "fdc_id": 2708971,
+      "kcal_per_100g": 100
+    },
+    {
+      "class_name": "sushi",
+      "fdc_id": 2708960,
+      "kcal_per_100g": 93
+    },
+    {
+      "class_name": "sushi",
+      "fdc_id": 2708963,
+      "kcal_per_100g": 103
+    },
+    {
+      "class_name": "ice_cream",
+      "fdc_id": 167575,
+      "kcal_per_100g": 207
+    },
+    {
+      "class_name": "ice_cream",
+      "fdc_id": 167572,
+      "kcal_per_100g": 180
+    },
+    {
+      "class_name": "ice_cream",
+      "fdc_id": 167573,
+      "kcal_per_100g": 249
+    },
+    {
+      "class_name": "ice_cream",
+      "fdc_id": 167981,
+      "kcal_per_100g": 222
+    },
+    {
+      "class_name": "waffles",
+      "fdc_id": 175039,
+      "kcal_per_100g": 291
+    },
+    {
+      "class_name": "waffles",
+      "fdc_id": 167519,
+      "kcal_per_100g": 298
+    },
+    {
+      "class_name": "waffles",
+      "fdc_id": 175048,
+      "kcal_per_100g": 312
+    },
+    {
+      "class_name": "spaghetti_bolognese",
+      "fdc_id": 2708825,
+      "kcal_per_100g": 147
+    },
+    {
+      "class_name": "spaghetti_bolognese",
+      "fdc_id": 2708839,
+      "kcal_per_100g": 139
+    }
+  ],
+  "separate_food_detail_crosscheck": [
+    {
+      "fdc_id": 170698,
+      "kcal_per_100g": 312.0,
+      "search_matches_detail": true
+    },
+    {
+      "fdc_id": 2707060,
+      "kcal_per_100g": 296,
+      "search_matches_detail": true
+    },
+    {
+      "fdc_id": 2708705,
+      "kcal_per_100g": 192,
+      "search_matches_detail": true
+    },
+    {
+      "fdc_id": 2708961,
+      "kcal_per_100g": 94.0,
+      "search_matches_detail": true
+    }
+  ],
+  "evidence_sha256": {
+    "usda_energy_records.json": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb",
+    "usda_detail_crosscheck.json": "218aad669e3dab791f978ea19ab4d53868a195153ed560bd0a2e4de591e02541"
+  },
+  "limitations": [
+    "Evidence files are unchanged field excerpts, not full HTTP responses.",
+    "This verifies local evidence consistency; it does not fetch or authenticate current USDA records.",
+    "Selected recipe values are not a statistical confidence interval.",
+    "Gyoza and spaghetti_bolognese use explicitly approximate food mappings.",
+    "No image classification performance or real meal measurement is evaluated here."
+  ]
+}

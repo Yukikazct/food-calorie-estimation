@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>菜品识别与热量估算</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f7f5ef;color:#25372d;font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:1080px;margin:40px auto;padding:0 20px}h1{font-size:30px;margin:8px 0}h2{font-size:20px;margin-top:0}.tag{color:#3c6d4e;font-size:14px}.muted{font-size:14px;color:#68756d}.status{padding:12px 16px;background:#edf1e7;border-radius:9px}.grid{display:grid;grid-template-columns:1.2fr 1fr;gap:22px;margin-top:24px}.card{background:#fff;border:1px solid #e1e5dc;border-radius:14px;padding:24px}.preview{height:260px;display:grid;place-items:center;border:1px dashed #becab9;border-radius:10px;background:#fafbf7}.preview img{max-width:100%;max-height:258px;object-fit:contain}label{display:block;margin:14px 0 5px}input,select,button{font:inherit;padding:10px;border:1px solid #bdcab9;border-radius:8px;max-width:100%}input[type=number],select{width:100%}button{background:#376847;color:white;cursor:pointer;margin-top:16px}button:disabled{background:#89998a;cursor:not-allowed}.result{font-size:29px;font-weight:700;margin:18px 0 6px}.error{color:#a23a26}#predictions{padding-left:20px}a{color:#376847}#sources{font-size:13px;overflow-wrap:anywhere}[hidden]{display:none!important}@media(max-width:740px){.grid{grid-template-columns:1fr}main{margin:20px auto}.card{padding:18px}}
+</style></head><body><main>
+<span class="tag">课程第02题 · 10类菜品</span><h1>菜品识别与热量估算</h1>
+<p class="muted">核对菜品，输入食用份量，查看基于营养参考值的热量估算。</p>
+<p id="status" class="status" role="status">正在读取项目状态…</p>
+<div class="grid"><section class="card"><h2>1. 选择菜品图片</h2><div class="preview"><img id="preview" alt="所选菜品" hidden><span id="placeholder" class="muted">图片只在本机处理</span></div>
+<label for="photo">上传图片</label><input id="photo" type="file" accept="image/*"><br><button id="recognize" disabled>识别菜品</button>
+<ol id="predictions"></ol><p id="predictionNote" class="muted">识别完成后会显示三个候选，请再核对菜品。</p></section>
+<section class="card"><h2>2. 确认菜品与份量</h2><label for="food">菜品</label><select id="food"><option value="">请选择菜品</option></select>
+<label for="grams">份量（克）</label><input id="grams" type="number" min="1" max="5000" step="any" value="100">
+<button id="estimate">估算热量</button><p id="result" class="result"></p><p id="note" class="muted"></p><div id="sources"></div>
+<p class="muted">份量需由你填写。热量参考不同配方，实际食物的油量、酱料和原料会影响结果。</p></section></div>
+<p id="message" role="status"></p><p class="muted">图片分类与营养估算是两个步骤。没有训练好的菜品模型时，可先手动选择菜品。</p>
+</main><script src="/app.js"></script></body></html>

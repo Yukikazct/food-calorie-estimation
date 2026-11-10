@@ -1,30 +1,9 @@
 {
-  "class_names": ["upright", "head_down", "forward_lean", "side_lean"],
-  "data": {"split_ratios": [0.7, 0.15, 0.15]},
-  "pose": {
-    "weights": "models/yolo11n-pose.pt",
-    "imgsz": 640,
-    "min_keypoint_confidence": 0.3,
-    "person_confidence": 0.25
-  },
-  "training": {
-    "learning_rate": 0.001,
-    "batch_size": 64,
-    "max_epochs": 100,
-    "patience": 10,
-    "hidden_dims": [64, 32],
-    "dropout": 0.2
-  },
-  "baseline": {
-    "side_lean_angle_deg": 15.0,
-    "forward_lean_head_offset_x": 0.35,
-    "head_down_head_offset_y": -0.15
-  },
-  "reminder": {
-    "ema_alpha": 0.3,
-    "min_class_confidence": 0.6,
-    "abnormal_seconds": 3.0,
-    "recovery_seconds": 1.0,
-    "cooldown_seconds": 10.0
-  }
+  "project": "food-calorie",
+  "classes": ["pizza", "hamburger", "french_fries", "hot_dog", "fried_rice", "gyoza", "sushi", "ice_cream", "waffles", "spaghetti_bolognese"],
+  "class_names_zh": ["披萨", "汉堡", "薯条", "热狗", "炒饭", "煎饺", "寿司", "冰淇淋", "华夫饼", "肉酱意大利面"],
+  "data": {"dataset": "Food-101", "seed": 42, "validation_fraction": 0.2, "manifest": "data/processed/food101_10/manifest.csv"},
+  "model": {"architecture": "mobilenet_v3_small", "pretrained_weights": "models/pretrained/mobilenet_v3_small-047dcff4.pth", "input_size": 224},
+  "training": {"seed": 42, "batch_size": 32, "epochs": 12, "patience": 4, "learning_rate": 0.001, "backbone_learning_rate": 0.0001, "num_workers": 0},
+  "nutrition": {"path": "data/nutrition.json"}
 }

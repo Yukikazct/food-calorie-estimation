@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "provider": "USDA FoodData Central",
+  "retrieved_date": "2026-11-10",
+  "api_endpoint": "https://api.nal.usda.gov/fdc/v1/foods",
+  "evidence_kind": "selected_record_field_excerpts",
+  "extraction_note": "A separate official food-detail request returned these four foods. Identity, description, publication date and Energy nutrient fields are preserved unchanged; other nutrients and portions are omitted. This is not the complete HTTP response.",
+  "original_response_sha256": "3709c8a7317c48737ed772f6e28f6c1bb125f5b1cbf0f95cd976438de6d00412",
+  "records": [
+    {
+      "fdcId": 170698,
+      "description": "Fast foods, potato, french fried in vegetable oil",
+      "dataType": "SR Legacy",
+      "publicationDate": "4/1/2019",
+      "foodNutrients": [
+        {
+          "type": "FoodNutrient",
+          "nutrient": {
+            "id": 1008,
+            "number": "208",
+            "name": "Energy",
+            "rank": 300,
+            "unitName": "kcal"
+          },
+          "foodNutrientDerivation": {
+            "id": 49,
+            "code": "NC",
+            "description": "Calculated",
+            "foodNutrientSource": {
+              "id": 2,
+              "code": "4",
+              "description": "Calculated or imputed"
+            }
+          },
+          "id": 1544598,
+          "amount": 312.0,
+          "dataPoints": 0
+        }
+      ]
+    },
+    {
+      "fdcId": 2707060,
+      "description": "Hot dog sandwich, beef, on white bun",
+      "dataType": "Survey (FNDDS)",
+      "publicationDate": "10/31/2024",
+      "foodNutrients": [
+        {
+          "type": "FoodNutrient",
+          "id": 34245102,
+          "nutrient": {
+            "id": 1008,
+            "number": "208",
+            "name": "Energy",
+            "rank": 300,
+            "unitName": "kcal"
+          },
+          "amount": 296
+        }
+      ]
+    },
+    {
+      "fdcId": 2708705,
+      "description": "Wonton, dumpling or pot sticker, fried",
+      "dataType": "Survey (FNDDS)",
+      "publicationDate": "10/31/2024",
+      "foodNutrients": [
+        {
+          "type": "FoodNutrient",
+          "id": 34352027,
+          "nutrient": {
+            "id": 1008,
+            "number": "208",
+            "name": "Energy",
+            "rank": 300,
+            "unitName": "kcal"
+          },
+          "amount": 192
+        }
+      ]
+    },
+    {
+      "fdcId": 2708961,
+      "description": "Sushi roll, California",
+      "dataType": "Survey (FNDDS)",
+      "publicationDate": "10/31/2024",
+      "foodNutrients": [
+        {
+          "type": "FoodNutrient",
+          "id": 34368667,
+          "nutrient": {
+            "id": 1008,
+            "number": "208",
+            "name": "Energy",
+            "rank": 300,
+            "unitName": "kcal"
+          },
+          "amount": 94.0
+        }
+      ]
+    }
+  ]
+}

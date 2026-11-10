@@ -1,0 +1,681 @@
+{
+  "schema_version": 1,
+  "unit": "kcal_per_100g",
+  "updated_at": "2026-11-10",
+  "source": "USDA FoodData Central SR Legacy and Survey (FNDDS)",
+  "basis": "Energy nutrient1008 (kcal), per100g edible portion; user supplies mass.",
+  "range_policy": "Minimum and maximum over the explicitly listed reference foods; not a population interval or model confidence interval.",
+  "source_terms": {
+    "provider": "U.S. Department of Agriculture, Agricultural Research Service",
+    "attribution": "USDA FoodData Central; specific source records listed for every entry.",
+    "documentation_url": "https://fdc.nal.usda.gov/data-documentation.html",
+    "api_guide_url": "https://fdc.nal.usda.gov/api-guide",
+    "terms_retrieval_status": "API records retrieved; the current FDC documentation/policy webpage was not retrievable in this run."
+  },
+  "entries": {
+    "pizza": {
+      "name_zh": "披萨",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 234,
+      "kcal_per_100g_high": 287,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/2708615/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708617/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708626/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708641/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 2708615,
+          "description": "Pizza, cheese, from restaurant or fast food, thin crust",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 266,
+          "url": "https://fdc.nal.usda.gov/food-details/2708615/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708615",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708617,
+          "description": "Pizza, cheese, from restaurant or fast food, thick crust",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 271,
+          "url": "https://fdc.nal.usda.gov/food-details/2708617/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708617",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708626,
+          "description": "Pizza, cheese, with vegetables, from restaurant or fast food, thin crust",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 234,
+          "url": "https://fdc.nal.usda.gov/food-details/2708626/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708626",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708641,
+          "description": "Pizza with pepperoni, from restaurant or fast food, thick crust",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 287,
+          "url": "https://fdc.nal.usda.gov/food-details/2708641/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708641",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "selected_food_variants",
+      "note": "参考奶酪、蔬菜及意式香肠披萨的不同饼底；额外配料与店家配方可能超出此范围。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "hamburger": {
+      "name_zh": "汉堡",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 243,
+      "kcal_per_100g_high": 288,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/2706920/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2706924/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2706922/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2706925/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 2706920,
+          "description": "Hamburger, NFS",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 288,
+          "url": "https://fdc.nal.usda.gov/food-details/2706920/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2706920",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2706924,
+          "description": "Hamburger (McDonalds)",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 263,
+          "url": "https://fdc.nal.usda.gov/food-details/2706924/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2706924",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2706922,
+          "description": "Hamburger (Burger King)",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 254,
+          "url": "https://fdc.nal.usda.gov/food-details/2706922/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2706922",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2706925,
+          "description": "Hamburger, from school cafeteria",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 243,
+          "url": "https://fdc.nal.usda.gov/food-details/2706925/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2706925",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "selected_food_variants",
+      "note": "参考完整汉堡（含面包），包含USDA普通、学校食堂及两种连锁店条目；不代表照片中具体品牌。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "french_fries": {
+      "name_zh": "薯条",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 148,
+      "kcal_per_100g_high": 312,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/170698/nutrients",
+        "https://fdc.nal.usda.gov/food-details/168445/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 170698,
+          "description": "Fast foods, potato, french fried in vegetable oil",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 312,
+          "url": "https://fdc.nal.usda.gov/food-details/170698/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/170698",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 168445,
+          "description": "Potatoes, french fried, steak fries, salt added in processing, frozen, oven-heated",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 148,
+          "url": "https://fdc.nal.usda.gov/food-details/168445/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/168445",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "selected_food_variants",
+      "note": "参考植物油炸薯条和烤热粗薯条，做法不同；重量为烹制后可食部分，不是生土豆重量。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "hot_dog": {
+      "name_zh": "热狗",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 271,
+      "kcal_per_100g_high": 296,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/2707060/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2707061/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2707064/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2707065/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 2707060,
+          "description": "Hot dog sandwich, beef, on white bun",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 296,
+          "url": "https://fdc.nal.usda.gov/food-details/2707060/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2707060",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2707061,
+          "description": "Hot dog sandwich, beef, on wheat bun",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 290,
+          "url": "https://fdc.nal.usda.gov/food-details/2707061/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2707061",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2707064,
+          "description": "Hot dog sandwich, meat and poultry, on white bun",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 278,
+          "url": "https://fdc.nal.usda.gov/food-details/2707064/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2707064",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2707065,
+          "description": "Hot dog sandwich, meat and poultry, on wheat bun",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 271,
+          "url": "https://fdc.nal.usda.gov/food-details/2707065/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2707065",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "selected_food_variants",
+      "note": "参考完整热狗三明治（香肠加面包），包含牛肉或混合肉香肠、白/麦面包；不是单独香肠的热量。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "fried_rice": {
+      "name_zh": "炒饭",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 166,
+      "kcal_per_100g_high": 179,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/2708951/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708953/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708954/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708955/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708956/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 2708951,
+          "description": "Rice, fried, meatless",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 174,
+          "url": "https://fdc.nal.usda.gov/food-details/2708951/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708951",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708953,
+          "description": "Rice, fried, with chicken",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 173,
+          "url": "https://fdc.nal.usda.gov/food-details/2708953/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708953",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708954,
+          "description": "Rice, fried, with pork",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 179,
+          "url": "https://fdc.nal.usda.gov/food-details/2708954/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708954",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708955,
+          "description": "Rice, fried, with beef",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 178,
+          "url": "https://fdc.nal.usda.gov/food-details/2708955/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708955",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708956,
+          "description": "Rice, fried, with shrimp",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 166,
+          "url": "https://fdc.nal.usda.gov/food-details/2708956/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708956",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "selected_food_variants",
+      "note": "参考无肉、鸡肉、猪肉、牛肉及虾炒饭；实际加油量和配料比例可能超出参考范围。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "gyoza": {
+      "name_zh": "煎饺",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 192,
+      "kcal_per_100g_high": 192,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/2708705/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 2708705,
+          "description": "Wonton, dumpling or pot sticker, fried",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 192,
+          "url": "https://fdc.nal.usda.gov/food-details/2708705/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708705",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "approximate_composite_reference",
+      "note": "使用USDA“油炸馄饨、饺子或锅贴”复合类别作为煎饺近似参考；只有一个参考值，不代表日式煎饺所有配方。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "sushi": {
+      "name_zh": "寿司",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 93,
+      "kcal_per_100g_high": 119,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/2708972/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708961/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708971/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708960/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708963/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 2708972,
+          "description": "Sushi, topped with egg",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 119,
+          "url": "https://fdc.nal.usda.gov/food-details/2708972/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708972",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708961,
+          "description": "Sushi roll, California",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 94,
+          "url": "https://fdc.nal.usda.gov/food-details/2708961/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708961",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708971,
+          "description": "Sushi, topped with tuna",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 100,
+          "url": "https://fdc.nal.usda.gov/food-details/2708971/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708971",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708960,
+          "description": "Sushi roll, avocado",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 93,
+          "url": "https://fdc.nal.usda.gov/food-details/2708960/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708960",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708963,
+          "description": "Sushi roll, salmon",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 103,
+          "url": "https://fdc.nal.usda.gov/food-details/2708963/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708963",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "selected_food_variants",
+      "note": "参考牛油果、加州、三文鱼卷以及金枪鱼、鸡蛋寿司；不包括额外蛋黄酱、油炸外皮或蘸酱。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "ice_cream": {
+      "name_zh": "冰淇淋",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 180,
+      "kcal_per_100g_high": 249,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/167575/nutrients",
+        "https://fdc.nal.usda.gov/food-details/167572/nutrients",
+        "https://fdc.nal.usda.gov/food-details/167573/nutrients",
+        "https://fdc.nal.usda.gov/food-details/167981/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 167575,
+          "description": "Ice creams, vanilla",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 207,
+          "url": "https://fdc.nal.usda.gov/food-details/167575/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/167575",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 167572,
+          "description": "Ice creams, vanilla, light",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 180,
+          "url": "https://fdc.nal.usda.gov/food-details/167572/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/167572",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 167573,
+          "description": "Ice creams, vanilla, rich",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 249,
+          "url": "https://fdc.nal.usda.gov/food-details/167573/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/167573",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 167981,
+          "description": "Ice creams, french vanilla, soft-serve",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 222,
+          "url": "https://fdc.nal.usda.gov/food-details/167981/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/167981",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "selected_food_variants",
+      "note": "参考普通、轻脂、浓厚香草冰淇淋和法式香草软冰淇淋；不含甜筒、酱料及额外配料。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "waffles": {
+      "name_zh": "华夫饼",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 291,
+      "kcal_per_100g_high": 312,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/175039/nutrients",
+        "https://fdc.nal.usda.gov/food-details/167519/nutrients",
+        "https://fdc.nal.usda.gov/food-details/175048/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 175039,
+          "description": "Waffles, plain, prepared from recipe",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 291,
+          "url": "https://fdc.nal.usda.gov/food-details/175039/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/175039",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 167519,
+          "description": "Waffle, plain, frozen, ready-to-heat, microwave",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 298,
+          "url": "https://fdc.nal.usda.gov/food-details/167519/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/167519",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 175048,
+          "description": "Waffles, plain, frozen, ready -to-heat, toasted",
+          "data_type": "SR Legacy",
+          "published_date": "2019-04-01",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 312,
+          "url": "https://fdc.nal.usda.gov/food-details/175048/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/175048",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "selected_food_variants",
+      "note": "参考已制作、微波加热或烤热的原味华夫饼；不含糖浆、奶油及水果配料。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    },
+    "spaghetti_bolognese": {
+      "name_zh": "肉酱意大利面",
+      "status": "verified_reference",
+      "kcal_per_100g_low": 139,
+      "kcal_per_100g_high": 147,
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/2708825/nutrients",
+        "https://fdc.nal.usda.gov/food-details/2708839/nutrients"
+      ],
+      "references": [
+        {
+          "fdc_id": 2708825,
+          "description": "Pasta with tomato-based sauce, cheese and meat",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 147,
+          "url": "https://fdc.nal.usda.gov/food-details/2708825/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708825",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        },
+        {
+          "fdc_id": 2708839,
+          "description": "Pasta with tomato-based sauce and meat, ready-to-heat",
+          "data_type": "Survey (FNDDS)",
+          "published_date": "2024-10-31",
+          "nutrient_id": 1008,
+          "nutrient_name": "Energy",
+          "nutrient_unit": "KCAL",
+          "basis_grams": 100,
+          "kcal_per_100g": 139,
+          "url": "https://fdc.nal.usda.gov/food-details/2708839/nutrients",
+          "api_resource": "https://api.nal.usda.gov/fdc/v1/food/2708839",
+          "evidence_file": "data/nutrition_sources/usda_energy_records.json",
+          "evidence_sha256": "4e2e97d2167bc9f9d74711b6f90e2037c8b1d205dd0ba2c0c7453ab4bdce99fb"
+        }
+      ],
+      "mapping_kind": "approximate_composite_reference",
+      "note": "以USDA“意面加含肉番茄酱”（一种含奶酪、一种即热）作为肉酱意面近似参考，并非特定传统Bolognese配方。 数值按输入克数换算，范围仅覆盖列出的参考食物，不是照片测量结果或置信区间。"
+    }
+  }
+}

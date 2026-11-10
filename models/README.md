@@ -1,5 +1,5 @@
-# 模型权重
+# 模型
 
-从 [Ultralytics 官方 YOLO11 文档](https://docs.ultralytics.com/models/yolo11/) 获取 `yolo11n-pose.pt`，核对来源及使用许可后放在本目录。
+`pretrained/mobilenet_v3_small-047dcff4.pth`是torchvision官方ImageNet初始化权重，来源与完整SHA-256在旁边的provenance.json中。torchvision源码采用BSD-3-Clause许可。
 
-框架要求权重已在本地，不会在检查、测试或模拟流程中自动下载。
+实际完成10类Food-101训练后，验证选定的模型才可部署为`food10/best.pt`。ImageNet权重不包含本项目训练过的10类分类头。
