@@ -91,4 +91,4 @@ uv pip install --python .venv-sitting-posture/bin/python -e .
 node scripts/check_food_browser.mjs
 ```
 
-项目计划与课程对应见 [项目计划](docs/项目计划.md)，实际运行记录见[运行记录](docs/运行记录.md)。原始课程要求Word仅保留在本机，仓库提供相关要求摘录。本项目沿用原Git仓库，仓库名称仍为`sitting-posture-classification`，当前代码已切换为菜品识别与热量估算。原始图片、虚拟环境、模型权重和本机训练输出通过下载与训练脚本在本地重建。
+项目计划与课程对应见 [项目计划](docs/项目计划.md)，实际运行记录见[运行记录](docs/运行记录.md)。原始课程要求Word仅保留在本机，仓库提供相关要求摘录。代码仓库：[Yukikazct/food-calorie-estimation](https://github.com/Yukikazct/food-calorie-estimation)，保留原有Git提交历史。原始图片、虚拟环境、模型权重和本机训练输出通过下载与训练脚本在本地重建。
